@@ -1,5 +1,5 @@
-import { Pojo } from './pojo';
-import { DecoderFunction } from './types';
+import { Pojo } from './pojo.ts';
+import { DecoderFunction } from './types.ts';
 
 export const string: DecoderFunction<string> = (s: Pojo) => {
   if (typeof s !== 'string') {

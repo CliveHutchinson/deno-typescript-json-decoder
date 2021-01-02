@@ -1,12 +1,12 @@
-import { optionDecoder } from './higher-order-decoders';
-import { isPojoObject, Pojo, PojoObject } from './pojo';
+import { optionDecoder } from './higher-order-decoders.ts';
+import { isPojoObject, Pojo, PojoObject } from './pojo.ts';
 import {
   decode,
   decoder,
   Decoder,
   DecoderFunction,
   JsonLiteralForm,
-} from './types';
+} from './types.ts';
 
 export const literal = <p extends JsonLiteralForm>(
   literal: p

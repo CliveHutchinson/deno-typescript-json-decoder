@@ -1,5 +1,5 @@
-import { Pojo } from './pojo';
-import { literal, tuple, record } from './literal-decoders';
+import { Pojo } from './pojo.ts';
+import { literal, tuple, record } from './literal-decoders.ts';
 
 /**
  * Json Literal Decoder
